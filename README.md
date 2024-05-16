@@ -30,6 +30,6 @@ Welcome to my business platform! This application specializes in providing busin
 3. Build: Build the project for production using 'npm run build'.
 4. Deployment: Deploy the built files to your preferred hosting platform.
 
-# Copyright © 2024 Eliyahu Levi All Rights Reserved.
+#  © 2024 Eliyahu Levi 
 
 
