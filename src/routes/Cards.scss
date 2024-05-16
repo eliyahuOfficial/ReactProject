@@ -1,0 +1,25 @@
+.search-place {
+    border-bottom: 2px solid #ff7e66;
+}
+
+.custom-input-cards {
+    display: block;
+    padding: 0.375rem 0.5rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+    &::placeholder {
+        color: #a0aec0;
+    }
+
+    &:focus {
+        outline: 2px solid #ff7e66;
+        outline-offset: 2px;
+    }
+}
+
+.cards-style {
+    border: 2px solid #ff7e66;
+}

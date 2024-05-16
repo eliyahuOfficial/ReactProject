@@ -1,0 +1,11 @@
+.toggle {
+    transition: all 0.3s ease-in-out;
+
+    &.dark {
+        transform: rotate(180deg);
+    }
+
+    &.light {
+        transform: rotate(0deg);
+    }
+}

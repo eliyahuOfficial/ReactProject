@@ -1,0 +1,43 @@
+h1 {
+
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 35px 0 35px;
+    padding-bottom: 40px;
+    color: rgba(225, 225, 225, .01);
+    background-image: url(../assets/original.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    font-size: 4.5rem;
+
+
+}
+
+
+
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-position: left top;
+    }
+
+    25% {
+        background-position: right bottom;
+    }
+
+    50% {
+        background-position: left bottom;
+    }
+
+    75% {
+        background-position: right top;
+    }
+}
+
+span {
+    color: #ff7e66;
+}
